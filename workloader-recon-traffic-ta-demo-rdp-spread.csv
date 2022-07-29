@@ -1,0 +1,3 @@
+src,dst,port,proto
+financeprodcadb1,crmprodcadb1,3389,tcp
+financeprodcadb1,crmprodcaweb1,3389,tcp
