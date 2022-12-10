@@ -10,7 +10,7 @@ echo "PCE FQDN = "$PCE_FQDN
 
 export PCE_NAME=ta-ext
 export PCE_PORT=8443
-export PCE_USER=your.email+talab@illumio.com
+export PCE_USER=YourFavoritePlusAddress@illumio.com
 export PCE_PWD=YourFavoriteThrowawayPassword
 export PCE_DISABLE_TLS=false
 

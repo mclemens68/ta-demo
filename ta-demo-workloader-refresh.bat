@@ -11,7 +11,7 @@ echo "PCE FQDN = "%PCE_FQDN%
 
 set PCE_NAME=ta-ext
 set PCE_PORT=8443
-set PCE_USER=your.email+talab@illumio.com
+set PCE_USER=YourFavoritePlusAddress@illumio.com
 set PCE_PWD=YourFavoriteTempPassword
 set PCE_DISABLE_TLS=false
 
