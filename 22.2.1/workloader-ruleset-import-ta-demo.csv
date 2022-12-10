@@ -1,0 +1,4 @@
+ruleset_name,ruleset_enabled,ruleset_description,app_scope,env_scope,loc_scope,contains_custom_iptables_rules,href
+POS | PCI,TRUE,,POS,PCI,all locs,FALSE,
+Users | Prod | Singapore,TRUE,,Users,Prod,Singapore,FALSE,
+IT | Prod,TRUE,,all apps,all envs,all locs,FALSE,
