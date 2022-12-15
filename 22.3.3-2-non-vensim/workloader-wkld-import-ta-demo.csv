@@ -1,0 +1,2 @@
+hostname,name,role,app,env,loc,interfaces,public_ip,machine_authentication_id,spn,description,os_id,os_detail,data_center,external_data_set,external_data_reference
+adc.talabs.net,adc.talabs.net,DC,CoreSvcs,Prod,CA,eth0:172.16.3.9;eth0:172.16.3.10,,,,,,,,,
