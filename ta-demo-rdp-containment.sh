@@ -1,2 +1,2 @@
-workloader containment-switch 3389 TCP -s 2022-12-01 -e 2022-12-14 --update-pce --no-prompt
+workloader containment-switch 3389 TCP -s 2023-01-30 -e 2023-02-05 --update-pce --no-prompt
 ./ta-demo-edit-eb.sh
