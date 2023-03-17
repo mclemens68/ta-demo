@@ -47,6 +47,10 @@ href,key,value,ext_dataset,ext_dataset_ref,virtual_server_usage,label_group_usag
 /orgs/1/labels/59,loc,Azure,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 /orgs/1/labels/60,loc,Singapore,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 /orgs/1/labels/61,loc,Endpoints,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-,os,Windows,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-,os,Linux,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-,os,Mac,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+,os,Windows,,,,,,,,,,,,,,,,,
+,os,Linux,,,,,,,,,,,,,,,,,
+,os,Mac,,,,,,,,,,,,,,,,,
+,risk,Quarantine,,,,,,,,,,,,,,,,,
+,bu,Commerce,,,,,,,,,,,,,,,,,
+,bu,Banking,,,,,,,,,,,,,,,,,
+,bu,Manufacturing,,,,,,,,,,,,,,,,,

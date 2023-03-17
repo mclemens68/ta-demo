@@ -1,3 +1,3 @@
-ruleset_name,ruleset_enabled,ruleset_description,app_scope,env_scope,loc_scope,contains_custom_iptables_rules,href
-Users | Prod | Singapore,TRUE,,Users,Prod,Singapore,FALSE,
-IT | Prod,TRUE,,all apps,all envs,all locs,FALSE,
+ruleset_name,enabled,description,scope,contains_custom_iptables_rules
+Users | Prod | Singapore,TRUE,,app:Users;env:Prod;loc:Singapore,FALSE
+IT | Prod,TRUE,,,FALSE
