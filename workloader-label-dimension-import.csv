@@ -1,0 +1,5 @@
+key,display_name,foreground_color,background_color,initial,display_name_plural,icon,external_dataset,external_dataref
+bu,Business Unit,#000000,#ebbb0f,BU,Business Units,org,,
+os,Operating System,#ffffff,#2f5cca,OS,Operating Systems,dashboard,,
+risk,Risk Level,#ffffff,#ff0000,RL,Risk Levels,critical,,
+sector,Sector,#ffffff,#2f8344,SE,Sectors,network,,

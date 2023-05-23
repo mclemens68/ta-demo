@@ -1,0 +1,4 @@
+name,enabled,consumer_iplists,consumer_all_workloads,consumer_labels,consumer_label_groups,provider_iplists,provider_all_workloads,provider_labels,provider_label_groups,services,network_type,created_at,updated_at,update_type
+Deny: All Endpoint Inbound,FALSE,Any (0.0.0.0/0 and ::/0),FALSE,,,,FALSE,loc:Endpoints,,All Services,all,2023-04-01T19:04:54.805Z,2023-04-01T19:09:44.920Z,
+Deny: Endpoint to Endpoint,FALSE,,FALSE,loc:Endpoints,,,FALSE,loc:Endpoints,,All Services,brn,2023-04-01T19:00:38.188Z,2023-04-01T19:08:19.173Z,
+Deny: Endpoint Outbound MGMT Connections,FALSE,,FALSE,loc:Endpoints,,Any (0.0.0.0/0 and ::/0),FALSE,,,MSFT Remote Management;RDP;SSH,all,2023-04-01T19:00:37.545Z,2023-04-01T19:09:20.241Z,

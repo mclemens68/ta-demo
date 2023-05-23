@@ -1,0 +1,6 @@
+ruleset_name,enabled,description,scope,contains_custom_iptables_rules
+PRM | Plant-Wide Network (level 3),TRUE,,app:PRM;env:Plant-Wide Network (level 3),FALSE
+Production | Zone 2 (Levels 0-2),TRUE,,app:Production;env:Zone 2 (Levels 0-2),FALSE
+Production | Zone 1 (Levels 0-2),TRUE,,app:Production;env:Zone 1 (Levels 0-2),FALSE
+Core IT Services | Enterprise (Level 4),TRUE,,app:Core IT Services;env:Enterprise (Level 4),FALSE
+Intermediate | Plant-Wide Network (level 3),TRUE,,app:Intermediate;env:Plant-Wide Network (level 3),FALSE

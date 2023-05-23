@@ -1,3 +1,7 @@
 ruleset_name,enabled,description,scope,contains_custom_iptables_rules
+Finance | Dev,TRUE,,app:Finance;env:Dev,FALSE
+Finance | Prod,TRUE,,app:Finance;env:Prod,FALSE
+CoreSvsc | Prod | Inbound,TRUE,,app:CoreSvcs;env:Prod,FALSE
+CoreSvcs | Prod | Outbound,TRUE,,,FALSE
 Users | Prod | Singapore,TRUE,,app:Users;env:Prod;loc:Singapore,FALSE
 IT | Prod,TRUE,,,FALSE

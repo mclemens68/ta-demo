@@ -16,4 +16,12 @@ export PCE_DISABLE_TLS=false
 
 workloader pce-remove $PCE_NAME
 workloader pce-add
-workloader set-default $PCE_NAME
+workloader settings --default-pce $PCE_NAME
+
+# Create new label types
+./ta-demo-create-new-label-types.sh
+
+# Create pairing keys
+echo $1 > number.txt
+workloader get-pk --profile "Default (Servers)" -f pairing_key_server.txt
+workloader get-pk --profile "Default (Endpoints)" -f pairing_key_endpoint.txt

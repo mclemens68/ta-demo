@@ -1,0 +1,26 @@
+﻿hostname,role,app,env,loc,sector,interfaces
+DC,DC,Core IT Services,Enterprise (Level 4),HQ,Manufacturing,
+DB1,Reporting,Core IT Services,Enterprise (Level 4),HQ,Manufacturing,
+WSUS1,WSUS,Core IT Services,Enterprise (Level 4),HQ,Manufacturing,
+USER1,Users,Users,Enterprise (Level 4),HQ,Manufacturing,
+USER2,Users,Users,Enterprise (Level 4),HQ,Manufacturing,
+DR-DP,Data Retrievel,Intermediate,Plant-Wide Network (level 3),Plant,Manufacturing,
+JUMP,Jump Host,Intermediate,Plant-Wide Network (level 3),Plant,Manufacturing,
+TIME1,NTP,Intermediate,Plant-Wide Network (level 3),Plant,Manufacturing,
+EWS,EWS,PRM,Plant-Wide Network (level 3),Plant,Manufacturing,
+FactoryTalk1,Ctrl,PRM,Plant-Wide Network (level 3),Plant,Manufacturing,
+FactoryTalk2,Ctrl,PRM,Plant-Wide Network (level 3),Plant,Manufacturing,
+FactoryTalk3,Ctrl,PRM,Plant-Wide Network (level 3),Plant,Manufacturing,
+HIST,Reporting,PRM,Plant-Wide Network (level 3),Plant,Manufacturing,
+Zone1-HMI1,HMI,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.155.7.199
+Zone1-HMI2,HMI,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.155.7.198
+Zone1-HMI3,HMI,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.155.7.197
+Zone1-Controller1,Controller,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.3.240.65
+Zone1-Controller2,Controller,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing,eth0:162.82.64.152
+Zone1-Controller3,Controller,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.1.16.37
+Zone2-HMI1,HMI,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.155.8.199
+Zone2-HMI2,HMI,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.155.8.198
+Zone2-HMI3,HMI,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.155.8.197
+Zone2-Controller1,Controller,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.3.241.65
+Zone2-Controller2,Controller,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing,eth0:162.82.65.152
+Zone2-Controller3,Controller,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing,eth0:10.1.17.37

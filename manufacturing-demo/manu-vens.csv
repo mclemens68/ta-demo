@@ -1,0 +1,14 @@
+﻿hostname,interface,agent_version,os_id,os_detail,platform,ven_type
+DB1,eth0:10.0.1.15/24,22.5.10-9729,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo),linux,server
+DC,eth0:10.0.0.10/24,22.5.10-9729,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server
+DR-DP,eth0:10.0.1.14/24,22.5.10-9729,centos-x86_64-7.0,3.10.0-1160.62.1.el7.x86_64 #1 SMP Wed Mar 23 09:04:02 UTC 2022 (Red Hat Enterprise Linux Server release 7.9 (Maipo)),linux,server
+EWS,eth0:162.82.64.129/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+FactoryTalk1,eth0:239.255.255.250/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+FactoryTalk2,eth0:239.255.255.251/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+FactoryTalk3,eth0:239.255.255.252/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+HIST,eth0:10.0.2.131/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+JUMP,eth0:10.0.1.17/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+TIME1,eth0:10.0.0.12/24,22.5.10-9729,win-x86_64-server,17763.1.amd64fre.rs5_release.180914-1434 (Windows Server 2019 Standard),windows,server
+USER1,eth0:10.0.0.101/24,22.5.10-9729,win-x86_64-server,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+USER2,eth0:10.0.0.102/24,22.5.10-9729,win-x86_64-server,19041.1.amd64fre.vb_release.191206-1406 (Windows 10 Pro),windows,endpoint
+WSUS1,eth0:10.0.0.13/24,22.5.10-9729,win-x86_64-server,14393.4467.amd64fre.rs1_release.210604-1844 (Windows Server 2016 Datacenter),windows,server

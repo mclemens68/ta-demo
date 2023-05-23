@@ -1,7 +1,14 @@
 workloader.log
+vensim.log
 ta-demo-workloader-refresh-matt.sh
+ta-demo-workloader-refresh-poc.sh
 workloader-processed-flow*
-workloader-*-export*-
+workloader-*-export*-*
+number.txt
+pairing_key_server.txt
+pairing_key_endpoint.txt
+agents/
+flows/
 sav/
 mt4l-demo/
 ot-demo/

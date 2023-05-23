@@ -1,0 +1,78 @@
+﻿hostname,process_name,service_name,port,proto
+DB1,/usr/sbin/mysqld,mysqld,3306,tcp
+DB1,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-1.el7_9.x86_64/jre/bin/java,java,8318,tcp
+DB1,/usr/sbin/nrpe,nrpe,5666,tcp
+DB1,/usr/sbin/rpcbind,rpcbind,111,tcp
+DB1,/usr/sbin/rpcbind,rpcbind,111,udp
+DB1,/usr/sbin/sshd,sshd,22,tcp
+DC,C:\Windows\System32\dfsrs.exe,dfsrs (DFSR),57583,tcp
+DC,C:\Windows\System32\dns.exe,dns (DNS),53,tcp
+DC,C:\Windows\System32\dns.exe,dns (DNS),49705,tcp
+DC,C:\Windows\System32\lsass.exe,lsass,58607,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (DCLocator),389,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (GlobalCatalog),3269,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (GlobalCatalog),3268,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (Kdc),88,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (Kdc),464,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (Kdc),49668,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (LDAPSSL),636,tcp
+DC,C:\Windows\System32\lsass.exe,lsass (Netlogon),5887,tcp
+DC,C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe,Microsoft.ActiveDirectory.WebServices (ADWS),9389,tcp
+DC,C:\Windows\System32\services.exe,services,49682,tcp
+DC,C:\Windows\System32\services.exe,services,57270,tcp
+DC,C:\Windows\System32\spoolsv.exe,spoolsv (Spooler),49676,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (CDPSvc),5050,udp
+DC,C:\Windows\System32\svchost.exe,svchost (Dnscache),5355,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (Dnscache),5353,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (EventLog),56766,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (ftpsvc),21,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (IKEEXT),4500,udp
+DC,C:\Windows\System32\svchost.exe,svchost (IKEEXT),500,udp
+DC,C:\Windows\System32\svchost.exe,svchost (PolicyAgent),52306,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (RpcEptMapper),593,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (RpcSs),135,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (Schedule),58212,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (SessionEnv),49666,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (TermService),3389,udp
+DC,C:\Windows\System32\svchost.exe,svchost (TermService),3389,tcp
+DC,C:\Windows\System32\svchost.exe,svchost (W32Time),123,tcp
+DC,,System (NetBIOS-DS),137,udp
+DC,,System (NetBIOS-NS),138,tcp
+DC,,System (NetBIOS-SS),139,tcp
+DC,,System (SMB),445,tcp
+DC,,System (WinRm),5986,tcp
+DC,,System (WinRm),50117,tcp
+DC,,System (WinRm),5985,tcp
+DC,C:\Windows\System32\wininit.exe,wininit,49664,tcp
+DC,C:\Windows\System32\wininit.exe,wininit,58100,tcp
+DR-DP,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-1.el7_9.x86_64/jre/bin/java,java,5460,tcp
+DR-DP,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-1.el7_9.x86_64/jre/bin/java,java,3306,tcp
+DR-DP,/usr/sbin/nrpe,nrpe,5666,tcp
+DR-DP,/usr/sbin/rpcbind,rpcbind,111,tcp
+DR-DP,/usr/sbin/rpcbind,rpcbind,111,udp
+DR-DP,/usr/sbin/sshd,sshd,22,tcp
+EWS,C:\temp\REvil.exe,REvil.exe,389,tcp
+EWS,C:\temp\hijack.exe,hijack.exe,443,tcp
+EWS,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,80,tcp
+EWS,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,443,tcp
+FactoryTalk1,C:\Program Files\FactoryTalk\NetworkManager\FTDirectoryServer,DirectoryServer,389,TCP
+FactoryTalk1,C:\Program Files\FactoryTalk\ComManager\ComManager,ComManager,502,TCP
+FactoryTalk2,C:\Program Files\FactoryTalk\RemoteManager\FTRemoteServer,RemoteServer,3389,TCP
+FactoryTalk2,C:\Program Files\FactoryTalk\ComManager\ComManager,ComManager,502,TCP
+FactoryTalk2,C:\Program Files\FactoryTalk\DataManager\DataManager,DataManager,5460,tcp
+FactoryTalk3,C:\Program Files\FactoryTalk\AssetManager\FTAssetManager,AssetManager,44818,tcp
+FactoryTalk3,C:\Program Files\FactoryTalk\ComManager\ComManager,ComManager,502,tcp
+FactoryTalk3,C:\Program Files\FactoryTalk\DataManager\DataManager,DataManager,5460,tcp
+HIST,\opt\bin\osi\opclient\pitopi,pitopi,5460,tcp
+JUMP,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,443,tcp
+JUMP,C:\Windows\system32\mstsc.exe,mstsc.exe,3389,tcp
+TIME1,C:\Program Files (x86)\NTP\bin\ntpd.exe,ntpd,123,tcp
+USER1,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,80,tcp
+USER1,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,443,tcp
+USER1,C:\temp\hijack.exe,hijack.exe,443,tcp
+USER2,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,80,tcp
+USER2,C:\Program Files (x86)\Google\Chrome\chrome.exe,chrome.exe,443,tcp
+WSUS1,C:\Program Files\Update Services\Services\wsusservice.exe,wsusservice.exe,443,tcp
+WSUS1,C:\Program Files\Update Services\Services\wsusservice.exe,wsusservice.exe,80,tcp
+JUMP,C:\Windows\System32\svchost.exe,TermServ,3389,tcp
+JUMP,C:\Windows\System32\svchost.exe,SessionEnv,3389,tcp

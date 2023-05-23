@@ -1,0 +1,4 @@
+src,dst,port,proto
+Win-endpoint-8,Win-endpoint-9,3389,tcp
+Win-endpoint-8,Mac-endpoint-1,22,tcp
+Win-endpoint-8,Mac-endpoint-5,22,tcp

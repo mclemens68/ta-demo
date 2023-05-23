@@ -1,0 +1,13 @@
+hostname,name,description,os_id,os_detail,interfaces,role,app,env,loc,sector
+Zone1-HMI1,PanelView Plus 6,3F:A6:1D:DE:05:2F,Windows CE 6.00,10.01,eth0:10.155.7.199,HMI,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing
+Zone1-HMI2,PanelView Plus 6,11:30:F6:36:5B:18,Windows CE 6.00,10.01,eth0:10.155.7.198,HMI,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing
+Zone1-HMI3,PanelView Plus 6,D7:19:B4:94:CC:20,Windows CE 6.00,10.01,eth0:10.155.7.197,HMI,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing
+Zone1-Controller1,Honeywell,3D:40:EA:7F:64:D4,ComfortPoint Plant Controller 6A,,eth0:10.3.240.65,Controller,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing
+Zone1-Controller2,Schneider Electric,9F:AF:04:BA:1E:38,PowerLogic ION7650,,eth0:162.82.64.152,Controller,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing
+Zone1-Controller3,Satec,2E:DF:67:D9:4F:C4,,,eth0:10.1.16.37,Controller,Production,Zone 1 (Levels 0-2),Plant Floor,Manufacturing
+Zone2-HMI1,PanelView Plus 6,CD:D8:10:42:F9:14,Windows CE 6.00,10.01,eth0:10.155.8.199,HMI,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing
+Zone2-HMI2,PanelView Plus 6,AF:AB:AA:57:03:08,Windows CE 6.00,10.01,eth0:10.155.8.198,HMI,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing
+Zone2-HMI3,PanelView Plus 6,86:5B:65:34:A6:3A,Windows CE 6.00,10.01,eth0:10.155.8.197,HMI,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing
+Zone2-Controller1,Honeywell,64:DB:29:0D:AB:3B,ComfortPoint Plant Controller 6A,,eth0:10.3.241.65,Controller,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing
+Zone2-Controller2,Schneider Electric,D0:13:50:ED:02:25,PowerLogic ION7650,,eth0:162.82.65.152,Controller,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing
+Zone2-Controller3,Satec,B6:09:12:81:D6:2F,,,eth0:10.1.17.37,Controller,Production,Zone 2 (Levels 0-2),Plant Floor,Manufacturing
