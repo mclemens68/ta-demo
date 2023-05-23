@@ -7,6 +7,7 @@ workloader-*-export*-*
 number.txt
 pairing_key_server.txt
 pairing_key_endpoint.txt
+crontab-temp.txt
 agents/
 flows/
 sav/

@@ -41,4 +41,5 @@ workloader increase-ven-rate --update-pce --no-prompt
 vensim post-traffic -c manu-vens.csv -t manu-traffic.csv -d "$date"
 
 # Intall crontab for heartbeats, etc...
-crontab crontab.txt
+./create-crontab.sh
+crontab crontab-temp.txt
