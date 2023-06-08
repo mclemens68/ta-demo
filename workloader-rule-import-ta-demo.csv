@@ -1,13 +1,3 @@
 ruleset_name,ruleset_description,ruleset_scope,ruleset_enabled,rule_description,rule_enabled,unscoped_consumers,consumer_all_workloads,consumer_labels,consumer_label_groups,consumer_iplists,consumer_user_groups,consumer_workloads,consumer_virtual_services,consumer_use_workload_subnets,provider_all_workloads,provider_labels,provider_label_groups,provider_iplists,provider_workloads,provider_virtual_services,provider_virtual_servers,provider_use_workload_subnets,services,consumer_resolve_labels_as,provider_resolve_labels_as,machine_auth_enabled,secure_connect_enabled,stateless_enabled,network_type
-Finance | Dev,,app:Finance;env:Dev,TRUE,,TRUE,FALSE,FALSE,,,HQ,,,,FALSE,FALSE,role:Web,,,,,,FALSE,HTTPS,workloads,workloads,FALSE,FALSE,FALSE,brn
-Finance | Dev,,app:Finance;env:Dev,TRUE,,TRUE,FALSE,FALSE,role:Web,,,,,,FALSE,FALSE,role:Proc,,,,,,FALSE,5432 TCP,workloads,workloads,FALSE,FALSE,FALSE,brn
-Finance | Dev,,app:Finance;env:Dev,TRUE,,TRUE,FALSE,FALSE,role:DB,,,,,,FALSE,FALSE,role:DB,,,,,,FALSE,3306 TCP,workloads,workloads,FALSE,FALSE,FALSE,brn
-Finance | Dev,,app:Finance;env:Dev,TRUE,,TRUE,FALSE,FALSE,role:Proc,,,,,,FALSE,FALSE,role:DB,,,,,,FALSE,3306 TCP,workloads,workloads,FALSE,FALSE,FALSE,brn
-Finance | Prod,,app:Finance;env:Prod,TRUE,,TRUE,FALSE,TRUE,,,,,,,FALSE,TRUE,,,,,,,FALSE,All Services,workloads,workloads,FALSE,FALSE,FALSE,brn
-Finance | Prod,,app:Finance;env:Prod,TRUE,,TRUE,TRUE,FALSE,,,Any (0.0.0.0/0 and ::/0),,,,FALSE,TRUE,,,,,,,FALSE,All Services,workloads,workloads,FALSE,FALSE,FALSE,brn
-CoreSvsc | Prod | Inbound,,app:CoreSvcs;env:Prod,TRUE,,TRUE,TRUE,TRUE,,,,,,,FALSE,FALSE,role:NTP;loc:CA,,,,,,FALSE,NTP,workloads,workloads,FALSE,FALSE,FALSE,brn
-CoreSvsc | Prod | Inbound,,app:CoreSvcs;env:Prod,TRUE,,TRUE,TRUE,TRUE,,,,,,,FALSE,FALSE,role:DC;loc:CA,,,,,,FALSE,MSFT Domain Controllers,workloads,workloads,FALSE,FALSE,FALSE,brn
-CoreSvsc | Prod | Inbound,,app:CoreSvcs;env:Prod,TRUE,,TRUE,TRUE,TRUE,,,,,,,FALSE,FALSE,role:DNS;loc:CA,,,,,,FALSE,DNS,workloads,workloads,FALSE,FALSE,FALSE,brn
-CoreSvcs | Prod | Outbound,,,TRUE,,TRUE,TRUE,FALSE,role:DC;app:CoreSvcs;loc:CA,,,,,,FALSE,TRUE,,,,,,,FALSE,SSH,workloads,workloads,FALSE,FALSE,FALSE,brn
 Users | Prod | Singapore,,app:Users;env:Prod;loc:Singapore,TRUE,,TRUE,FALSE,FALSE,role:UserDesk,,,,,,FALSE,FALSE,,,Any (0.0.0.0/0 and ::/0),,,,FALSE,HTTPS;Alt HTTP;Splunk,workloads,workloads,FALSE,FALSE,FALSE,brn
 IT | Prod,,,TRUE,,TRUE,FALSE,FALSE,role:AdminDesk;app:IT;env:Prod,,,,,,FALSE,FALSE,role:Jump;role:UserDesk,,,,,,FALSE,SSH;RDP,workloads,workloads,FALSE,FALSE,FALSE,brn
